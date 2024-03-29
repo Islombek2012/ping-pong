@@ -1,0 +1,94 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+body{
+      width: 100%;
+      height: 100vh;
+      background-image: url(./istockphoto-502189498-612x612.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+.ping-content{
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+.ping-card{
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 40px;
+      border-top: 5px solid crimson;
+      border-bottom: 5px solid blue;
+      border-left: 5px solid crimson;
+      border-right: 5px solid blue;
+      padding: 40px;
+      background-image: url(./pong.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+.btns{
+      display: flex;
+      align-items: center;
+      gap: 20px;
+}
+.btn1{
+      padding: 5px 12px;
+      color: crimson;
+      font-weight: 600;
+      line-height: 10px;
+      letter-spacing: 1px;
+      background-color: transparent;
+      text-transform: uppercase;
+      border-top: 3px solid crimson;
+      border-bottom: 3px solid blue;
+      border-left: 3px solid crimson;
+      border-right: 3px solid blue;
+}
+.btn2{
+      padding: 5px 12px;
+      color: blue;
+      font-weight: 600;
+      line-height: 10px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      background-color: transparent;
+      border-top: 3px solid crimson;
+      border-bottom: 3px solid blue;
+      border-left: 3px solid crimson;
+      border-right: 3px solid blue;
+}
+.select{
+      padding: 3px 9px;
+      color: crimson;
+      font-weight: 600;
+      line-height: 10px;
+      text-transform: uppercase;
+      background-color: transparent;
+      border-top: 3px solid crimson;
+      border-bottom: 3px solid blue;
+      border-left: 3px solid crimson;
+      border-right: 3px solid blue;
+}
+.reset{
+      padding: 5px 12px;
+      color: blue;
+      font-weight: 600;
+      line-height: 10px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      background-color: transparent;
+      border-top: 3px solid crimson;
+      border-bottom: 3px solid blue;
+      border-left: 3px solid crimson;
+      border-right: 3px solid blue;
+}
+h1{
+      font-size: 40px;
+      color: rgb(0, 0, 150);
+}
